@@ -1,5 +1,7 @@
-package org.example.productservice.serviceProduct.controlles;
+package org.example.productservice.serviceProduct.controller;
 
+import org.example.productservice.serviceProduct.dto.CategoryDTO;
+import org.example.productservice.serviceProduct.service.CategoryService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
